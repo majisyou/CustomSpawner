@@ -1,0 +1,64 @@
+OreName: Template
+
+level:
+  maxLevel: 5
+  1:
+    SpawnCount: 4 #一度にスポーンするエンティティの数 最大32767
+    SpawnRange: 4 #スポーンするエンティティの水平方向の範囲。y方向はスポナー中心として-1~+2　 最大32767
+    MinSpawnDelay: 200 #tick 一度召喚してから次に召喚するまでの時間の最小値　 最大32767
+    MaxSpawnDelay: 800 #tick 一度召喚してから次に召喚するまでの時間の最大値　 最大32767
+    RequiredPlayerRange: 16 #スポナーが起動する距離　 最大32767
+    Cost:
+      Frequency: 100   #levelUPnに必要なコスト　 2,147,483,647
+      Range: 100      #levelUpに必要なコスト     2,147,483,647
+      Mining: 100     #levelUpに必要なコスト     2,147,483,647
+    MiningTimes: 10 #最大32767　単位は×10^(MiningTimesUnit)
+    MiningTimesUnit: 0 #最大32767 上の10の指数の役割
+  2:
+    SpawnCount: 4 #一度にスポーンするエンティティの数 最大32767
+    SpawnRange: 4 #スポーンするエンティティの水平方向の範囲。y方向はスポナー中心として-1~+2　 最大32767
+    MinSpawnDelay: 200 #tick 一度召喚してから次に召喚するまでの時間の最小値　 最大32767
+    MaxSpawnDelay: 800 #tick 一度召喚してから次に召喚するまでの時間の最大値　 最大32767
+    RequiredPlayerRange: 16 #スポナーが起動する距離　 最大32767
+    Cost:
+      Frequency: 100   #levelUPnに必要なコスト　 2,147,483,647
+      Range: 100      #levelUpに必要なコスト     2,147,483,647
+      Mining: 100     #levelUpに必要なコスト     2,147,483,647
+    MiningTimes: 10 #最大32767　単位は×10^(MiningTimesUnit)
+    MiningTimesUnit: 0 #最大32767 上の10の指数の役割
+  3:
+    SpawnCount: 4 #一度にスポーンするエンティティの数 最大32767
+    SpawnRange: 4 #スポーンするエンティティの水平方向の範囲。y方向はスポナー中心として-1~+2　 最大32767
+    MinSpawnDelay: 200 #tick 一度召喚してから次に召喚するまでの時間の最小値　 最大32767
+    MaxSpawnDelay: 800 #tick 一度召喚してから次に召喚するまでの時間の最大値　 最大32767
+    RequiredPlayerRange: 16 #スポナーが起動する距離　 最大32767
+    Cost:
+      Frequency: 100   #levelUPnに必要なコスト　 2,147,483,647
+      Range: 100      #levelUpに必要なコスト     2,147,483,647
+      Mining: 100     #levelUpに必要なコスト     2,147,483,647
+    MiningTimes: 10 #最大32767　単位は×10^(MiningTimesUnit)
+    MiningTimesUnit: 0 #最大32767 上の10の指数の役割
+  4:
+    SpawnCount: 4 #一度にスポーンするエンティティの数 最大32767
+    SpawnRange: 4 #スポーンするエンティティの水平方向の範囲。y方向はスポナー中心として-1~+2　 最大32767
+    MinSpawnDelay: 200 #tick 一度召喚してから次に召喚するまでの時間の最小値　 最大32767
+    MaxSpawnDelay: 800 #tick 一度召喚してから次に召喚するまでの時間の最大値　 最大32767
+    RequiredPlayerRange: 16 #スポナーが起動する距離　 最大32767
+    Cost:
+      Frequency: 100   #levelUPnに必要なコスト　 2,147,483,647
+      Range: 100      #levelUpに必要なコスト     2,147,483,647
+      Mining: 100     #levelUpに必要なコスト     2,147,483,647
+    MiningTimes: 10 #最大32767　単位は×10^(MiningTimesUnit)
+    MiningTimesUnit: 0 #最大32767 上の10の指数の役割
+  5:
+    SpawnCount: 4 #一度にスポーンするエンティティの数 最大32767
+    SpawnRange: 4 #スポーンするエンティティの水平方向の範囲。y方向はスポナー中心として-1~+2　 最大32767
+    MinSpawnDelay: 200 #tick 一度召喚してから次に召喚するまでの時間の最小値　 最大32767
+    MaxSpawnDelay: 800 #tick 一度召喚してから次に召喚するまでの時間の最大値　 最大32767
+    RequiredPlayerRange: 16 #スポナーが起動する距離　 最大32767
+    Cost:
+      Frequency: 100   #levelUPnに必要なコスト　 2,147,483,647
+      Range: 100      #levelUpに必要なコスト     2,147,483,647
+      Mining: 100     #levelUpに必要なコスト     2,147,483,647
+    MiningTimes: 10 #最大32767　単位は×10^(MiningTimesUnit)
+    MiningTimesUnit: 0 #最大32767 上の10の指数の役割

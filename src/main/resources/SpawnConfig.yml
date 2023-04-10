@@ -1,0 +1,9 @@
+Block: diamond_ore
+Level:
+ SpawnCount: 4
+ SpawnRange: 4
+ MinSpawnDelay: 200
+ MaxSpawnDelay: 800
+ RequiredPlayerRange: 16
+ MiningTimes: 10
+ MiningTimesUnit: 1

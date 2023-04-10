@@ -1,0 +1,22 @@
+name: CustomSpawner
+version: '${version}'
+main: com.github.majisyou.CustomSpawner
+api-version: 1.19
+softdepend:
+ - vault
+
+commands:
+  CSDebug:
+    description: admin senyou
+    usage: none
+    permission: CustomSpawner.Admin
+
+  spawnerBreak:
+    description: spawnerBreak
+    usage: you can not have permission
+    permission: CustomSpawner.user
+
+  cs_admin:
+    description: admin senyou
+    usage: none
+    permission: CustomSpawner.Admin

@@ -20,13 +20,13 @@ import java.util.*;
 
 public class Sys_GuiItem {
 
-    private static CustomSpawner plugin = CustomSpawner.getInstance();
+    private static final CustomSpawner plugin = CustomSpawner.getInstance();
 
-    private static Map<String, ItemStack> items = new HashMap<>();
+    private static final Map<String, ItemStack> items = new HashMap<>();
 
     public static ItemStack getItem(String name){
         return items.get(name);}
-    public static Map<String,ItemStack> getItems(){return items;}
+//    public static Map<String,ItemStack> getItems(){return items;}
 
     public static void loadItems(){
         List<String> itemsList = ConfigManager.getItems();
@@ -122,9 +122,9 @@ public class Sys_GuiItem {
 
         try {
             World world = plugin.getServer().getWorld(Objects.requireNonNull(pdc.get(worldKey, PersistentDataType.STRING)));
-            int x = pdc.get(xKey,PersistentDataType.INTEGER);
-            int y = pdc.get(yKey,PersistentDataType.INTEGER);
-            int z = pdc.get(zKey,PersistentDataType.INTEGER);
+            int x = Objects.requireNonNull(pdc.get(xKey,PersistentDataType.INTEGER));
+            int y = Objects.requireNonNull(pdc.get(yKey,PersistentDataType.INTEGER));
+            int z = Objects.requireNonNull(pdc.get(zKey,PersistentDataType.INTEGER));
             return new Location(world,x,y,z);
         }catch (Exception e){
             e.printStackTrace();
